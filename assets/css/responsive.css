@@ -1,0 +1,14 @@
+@media (min-width: 576px) {}
+
+@media (max-width: 576px) {
+    /* common style */
+    h1 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .header-area .profile-area::before {
+        display: none;
+    }
+}
